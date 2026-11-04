@@ -54,3 +54,7 @@ Mã QR được tạo từ đúng link Google Maps, không phải từ địa ch
 - Nhà gái: https://maps.app.goo.gl/YMVATYxZhu6Zjr1p9
 
 Khi cập nhật GitHub Pages, nhớ ghi đè cả hai ảnh trong `assets/`.
+
+
+## V9 – Lịch ở trang 2
+Tờ thiệp phía trước phong bì hiển thị lịch tháng 11/2026, khoanh ngày 28 (Tiệc cưới) và 29 (Lễ cưới). Dựng hoàn toàn bằng HTML/CSS, giữ các trang còn lại.

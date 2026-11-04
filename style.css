@@ -46,3 +46,20 @@
 .cover-middle .dotted{width:78%;margin:10px auto 0;}
 .reception .guest-calligraphy{width:100%;max-width:100%;text-align:center;margin:0 auto;color:#201b1b;font-family:'Great Vibes',cursive;font-weight:400;font-size:clamp(23px,4.8vw,34px);line-height:1.3;letter-spacing:.01em;overflow-wrap:break-word;word-break:normal;}
 @media(max-width:420px){.cover-middle .guest-calligraphy{font-size:clamp(23px,7vw,30px)}.reception .guest-calligraphy{font-size:clamp(22px,6.3vw,28px)}.cover-middle .dotted{margin-top:8px;}}
+
+/* V9 – Lịch tháng 11 trên tờ thiệp phía trước phong bì */
+.mini.mini-ceremony{justify-content:flex-start;padding:clamp(10px,2.8vw,22px) clamp(8px,2vw,16px);gap:0;}
+.calendar-preview{display:flex;flex-direction:column;align-items:center;width:100%;height:100%;color:#3d292d;overflow:hidden;}
+.calendar-title{font:clamp(20px,5.5vw,37px)/1.3 'Great Vibes',cursive;text-align:center;color:#2d2021;white-space:nowrap;margin-top:2%;}
+.calendar-month{font:500 clamp(8px,1.7vw,12px) 'Playfair Display',serif;letter-spacing:.18em;color:#b50924;margin:4% 0 6%;}
+.calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));grid-template-rows:repeat(6,minmax(0,1fr));width:100%;flex:1;align-items:center;justify-items:center;column-gap:0;row-gap:0;}
+.cal-weekday{font:500 clamp(7px,1.55vw,11px) Georgia,serif;color:#8b6870;}
+.cal-blank{width:100%;}
+.cal-day{display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;width:100%;height:100%;font:clamp(8px,1.9vw,13px) 'Playfair Display',serif;color:#33262b;}
+.cal-number{display:grid;place-items:center;width:clamp(18px,4.6vw,34px);height:clamp(18px,4.6vw,34px);border:1.5px solid transparent;border-radius:50%;}
+.cal-day.cal-mark .cal-number{border-color:#ce8290;color:#b50924;font-weight:700;}
+.cal-day small{position:absolute;top:calc(50% + clamp(10px,2.5vw,19px));font:clamp(5px,1.1vw,8px) Georgia,serif;white-space:nowrap;color:#8d555f;}
+.cal-day.cal-sunday:not(.cal-mark) .cal-number{color:#b50924;}
+.calendar-caption{font:clamp(7px,1.4vw,10px) Georgia,serif;color:#9a7079;text-align:center;margin-top:7%;line-height:1.4;}
+@media(max-width:420px){.mini.mini-ceremony{padding:10px 7px}.calendar-title{font-size:clamp(18px,6vw,25px)}.calendar-month{margin:3% 0 5%;}.cal-day small{font-size:5px}.calendar-caption{font-size:7px}}
+@media(prefers-reduced-motion:reduce){.mini{animation:none}}
