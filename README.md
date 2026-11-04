@@ -34,3 +34,7 @@ Mã QR trong `assets` hiện là đường chỉ dẫn theo địa chỉ tìm ki
 - Đồng bộ toàn bộ chữ lồng thành **L ♥ V**.
 - Trang phong bì: tên thứ nhất và thứ hai nằm trên hai dòng riêng, không tách chữ **Đỗ Vân**.
 - Thêm cache-busting `?v=5` cho CSS và JS.
+
+
+## V6
+Tên khách mời ở trang phong bì và tờ tiệc được căn giữa, dùng font Great Vibes màu đen.
