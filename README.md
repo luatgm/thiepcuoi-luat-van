@@ -44,3 +44,13 @@ Tên khách mời ở trang phong bì và tờ tiệc được căn giữa, dùn
 - Sửa địa chỉ nhà gái thành **Số 30 Đường Đằng Tây**.
 - Sửa tên mẹ cô dâu thành **Vương Thị Diên**.
 - Tăng phiên bản tài nguyên lên v7.
+
+
+## V8 – Google Maps trực tiếp
+
+Mã QR được tạo từ đúng link Google Maps, không phải từ địa chỉ tìm kiếm. Nút Mở Google Maps trên trang cuối sử dụng cùng link.
+
+- Nhà trai: https://maps.app.goo.gl/JpreXPfAyLoFNaKdA
+- Nhà gái: https://maps.app.goo.gl/YMVATYxZhu6Zjr1p9
+
+Khi cập nhật GitHub Pages, nhớ ghi đè cả hai ảnh trong `assets/`.
