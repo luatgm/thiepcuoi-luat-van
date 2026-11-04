@@ -22,3 +22,10 @@ Ví dụ nếu URL website là `https://username.github.io/thiep-cuoi/`:
 Trang `index.html` là công cụ tạo link, không có đăng nhập. Nếu không muốn khách truy cập trang quản lý, hãy tách công cụ sang repository riêng hoặc thêm xác thực bằng dịch vụ phù hợp. Tên khách nằm trong URL và có thể nhìn thấy khi chia sẻ; không dùng cho dữ liệu nhạy cảm. GitHub Pages là hosting tĩnh, không tự gửi tin nhắn đến khách.
 
 Mã QR trong `assets` hiện là đường chỉ dẫn theo địa chỉ tìm kiếm; cần kiểm tra lại điểm đến chính xác trước khi phát thiệp.
+
+
+## V3
+- Monogram L ♥ V.
+- Tên hai người trên phong bì luôn nằm ở hai dòng riêng.
+- Ba tờ thiệp bên trong phong bì có thông tin xem trước và hiệu ứng nổi nhẹ.
+- Trang tiệc giảm cỡ chữ và giữ đủ tên bố mẹ hai bên.
