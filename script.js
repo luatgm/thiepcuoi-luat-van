@@ -3,7 +3,7 @@ let side=document.querySelector('meta[name="wedding-side"]')?.content==='gai'?'g
 function mapUrl(d){return d.mapUrl}
 function calendarPreview(){
  const weekdays=['CN','T2','T3','T4','T5','T6','T7'];
- const blanks=Array.from({length:0},()=>'<span></span>').join('');
+ const blanks=Array.from({length:6},()=>'<span></span>').join('');
  const cells=Array.from({length:30},(_,i)=>{const day=i+1;const marked=day===28||day===29;return `<span class="editorial-day ${marked?'editorial-mark':''}" ${marked?`aria-label="${day} tháng 11: ${day===28?'Tiệc cưới':'Lễ cưới'}"`:''}><span>${day}</span>${marked?'<span class="editorial-heart" aria-hidden="true">♥</span>':''}</span>`}).join('');
  return `<div class="editorial-calendar"><div class="editorial-vertical">SAVE THE DATE</div><div class="editorial-main"><div class="editorial-names">${side==='trai'?'Luật + Vân':'Vân + Luật'}</div><div class="editorial-month">NOVEMBER 2026</div><div class="editorial-grid">${weekdays.map(w=>`<span class="editorial-weekday">${w}</span>`).join('')}${blanks}${cells}</div><div class="editorial-bottom">28 · TIỆC CƯỚI <span>♥</span> 29 · ${side==='trai'?'THÀNH HÔN':'VU QUY'}</div><div class="editorial-footer">Hai trái tim · Một hành trình</div></div></div>`;
 }

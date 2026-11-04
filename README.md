@@ -62,3 +62,8 @@ Tờ thiệp phía trước phong bì hiển thị lịch tháng 11/2026, khoanh
 
 ## V10
 Page 2: lịch SAVE THE DATE theo bố cục ảnh tham khảo, chữ dọc, tên viết tay, lịch November 2026 với dấu trái tim ở 28 và 29. Giữ màu hồng đỏ của project; dựng bằng HTML/CSS.
+
+
+## V11
+- Lịch tháng 11/2026: font số/ngày Arial bình thường, không chữ nghiêng.
+- Sửa bố cục lịch đúng 6 hàng tuần; ngày 1/11/2026 là Chủ nhật.
