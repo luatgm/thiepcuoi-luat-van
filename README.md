@@ -58,3 +58,7 @@ Khi cập nhật GitHub Pages, nhớ ghi đè cả hai ảnh trong `assets/`.
 
 ## V9 – Lịch ở trang 2
 Tờ thiệp phía trước phong bì hiển thị lịch tháng 11/2026, khoanh ngày 28 (Tiệc cưới) và 29 (Lễ cưới). Dựng hoàn toàn bằng HTML/CSS, giữ các trang còn lại.
+
+
+## V10
+Page 2: lịch SAVE THE DATE theo bố cục ảnh tham khảo, chữ dọc, tên viết tay, lịch November 2026 với dấu trái tim ở 28 và 29. Giữ màu hồng đỏ của project; dựng bằng HTML/CSS.
