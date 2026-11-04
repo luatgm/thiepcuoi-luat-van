@@ -1,23 +1,24 @@
-# Thiệp cưới Minh Luật & Đỗ Vân
+# Thiệp cưới Minh Luật & Đỗ Vân — GitHub Pages
 
-Website tĩnh HTML/CSS/JavaScript, dựng lại giao diện từ ảnh tham khảo bằng code (không dùng ảnh thiệp gốc). Hai hình PNG trong `assets/` là QR được tạo mới để mở Google Maps.
+Website viết bằng HTML, CSS, JavaScript; không sử dụng ảnh chụp thiệp mẫu. Phần QR sử dụng ảnh mã QR tạo sẵn trong `assets/`.
 
-## Deploy GitHub Pages
+## Các trang
+- `index.html`: trang quản lý, nhập tên khách (mỗi dòng một tên), tạo link, sao chép hoặc xuất CSV.
+- `nha-trai.html`: thiệp nhà trai.
+- `nha-gai.html`: thiệp nhà gái.
+- `script.js`: nội dung và chuyển 5 trang thiệp.
+- `style.css`: giao diện.
+- `generator.js`: tạo link cá nhân hóa.
 
-1. Tạo repository GitHub, ví dụ `thiep-cuoi`.
-2. Upload **nội dung bên trong** thư mục này lên nhánh `main` tại root của repository (`index.html`, `style.css`, `script.js`, `assets/`).
-3. Vào **Settings → Pages → Build and deployment → Deploy from a branch**; chọn `main` và `/ (root)`, rồi **Save**.
-4. Sau khi GitHub Pages xuất bản, truy cập:
-   - `https://USERNAME.github.io/thiep-cuoi/?side=trai`
-   - `https://USERNAME.github.io/thiep-cuoi/?side=gai`
+## Triển khai GitHub Pages
+Upload **toàn bộ file và thư mục bên trong** ZIP lên root của repository, vào Settings > Pages > Deploy from a branch > main / (root).
 
-Thay `USERNAME` và `thiep-cuoi` bằng tên tài khoản/repository thực tế.
+Ví dụ nếu URL website là `https://username.github.io/thiep-cuoi/`:
+- Trang tạo link: `https://username.github.io/thiep-cuoi/`
+- Nhà trai: `https://username.github.io/thiep-cuoi/nha-trai.html`
+- Nhà gái: `https://username.github.io/thiep-cuoi/nha-gai.html`
+- Khách riêng: `https://username.github.io/thiep-cuoi/nha-trai.html?to=Anh%20Nguyen%20Van%20A`
 
-## Tuỳ chỉnh
+Trang `index.html` là công cụ tạo link, không có đăng nhập. Nếu không muốn khách truy cập trang quản lý, hãy tách công cụ sang repository riêng hoặc thêm xác thực bằng dịch vụ phù hợp. Tên khách nằm trong URL và có thể nhìn thấy khi chia sẻ; không dùng cho dữ liệu nhạy cảm. GitHub Pages là hosting tĩnh, không tự gửi tin nhắn đến khách.
 
-- `script.js`: đối tượng `DATA` chứa tên, địa chỉ, thời gian và tên bố mẹ.
-- `style.css`: bố cục, màu sắc, font chữ, hiệu ứng phong bì và responsive.
-- `index.html`: khung HTML.
-- `assets/qr-trai.png` và `assets/qr-gai.png`: QR chỉ đường đã tạo mới. Nếu thay đổi địa chỉ, hãy tạo lại QR tương ứng (link nút Google Maps được lấy từ `mapAddress` trong `script.js`).
-
-**Lưu ý:** QR đang trỏ tới tìm kiếm địa chỉ trên Google Maps, chưa xác nhận ghim vị trí chính xác. Font sử dụng Google Fonts nên cần kết nối mạng để hiện giống mẫu nhất.
+Mã QR trong `assets` hiện là đường chỉ dẫn theo địa chỉ tìm kiếm; cần kiểm tra lại điểm đến chính xác trước khi phát thiệp.
