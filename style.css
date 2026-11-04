@@ -33,3 +33,9 @@
 @media(max-width:420px){.cover-names{font-size:clamp(30px,8vw,39px)}.cover-names .name-amp{font-size:.4em}.reception{padding:8% 6%;gap:3px}.reception .names-script{font-size:clamp(29px,8vw,37px)}.reception p{font-size:clamp(9px,2.6vw,11px);line-height:1.35}.reception .date-big{font-size:clamp(29px,8vw,36px)}.reception .venue{font-size:clamp(26px,7vw,32px)}.reception .script-note{font-size:clamp(23px,6vw,29px)}.parents p{font-size:clamp(8px,2.25vw,10px)}.mini-detail{font-size:8px}}
 @media(max-height:740px){.reception{gap:2px;padding:7% 6%}.reception p{font-size:10px}.reception .names-script{font-size:34px}.reception .date-big{font-size:33px}.reception .venue{font-size:29px}.reception .script-note{font-size:25px}.parents p{font-size:9px}}
 @media(prefers-reduced-motion:reduce){.mini,.mini:after{animation:none}}
+
+/* V5: each full name occupies exactly one line on the envelope */
+.cover .cover-names{display:flex;flex-direction:column;align-items:flex-end;gap:0;width:100%;font-size:clamp(29px,6.6vw,47px);line-height:1.17;white-space:normal;}
+.cover .cover-name-line{display:block;white-space:nowrap;max-width:100%;font-family:'Great Vibes',cursive;}
+@media(max-width:420px){.cover .cover-names{font-size:clamp(26px,7.4vw,35px);}}
+@media(max-width:350px){.cover .cover-names{font-size:26px;}}

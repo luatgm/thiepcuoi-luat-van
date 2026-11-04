@@ -29,3 +29,8 @@ Mã QR trong `assets` hiện là đường chỉ dẫn theo địa chỉ tìm ki
 - Tên hai người trên phong bì luôn nằm ở hai dòng riêng.
 - Ba tờ thiệp bên trong phong bì có thông tin xem trước và hiệu ứng nổi nhẹ.
 - Trang tiệc giảm cỡ chữ và giữ đủ tên bố mẹ hai bên.
+
+## V5
+- Đồng bộ toàn bộ chữ lồng thành **L ♥ V**.
+- Trang phong bì: tên thứ nhất và thứ hai nằm trên hai dòng riêng, không tách chữ **Đỗ Vân**.
+- Thêm cache-busting `?v=5` cho CSS và JS.
