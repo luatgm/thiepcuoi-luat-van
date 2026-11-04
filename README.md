@@ -67,3 +67,9 @@ Page 2: lịch SAVE THE DATE theo bố cục ảnh tham khảo, chữ dọc, tê
 ## V11
 - Lịch tháng 11/2026: font số/ngày Arial bình thường, không chữ nghiêng.
 - Sửa bố cục lịch đúng 6 hàng tuần; ngày 1/11/2026 là Chủ nhật.
+
+
+## V12
+- Sửa lịch trong phong bì: số ngày không chồng chéo, ô lịch đều nhau, font đứng.
+- Xóa câu “Hai trái tim · Một hành trình”.
+- Giữ nguyên hai mã QR và các tính năng V11.

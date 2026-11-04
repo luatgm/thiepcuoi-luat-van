@@ -89,3 +89,18 @@
 .editorial-day>span:first-child{font-family:Arial,Helvetica,sans-serif!important;font-style:normal!important;letter-spacing:0!important;}
 .editorial-mark>span:first-child{font-weight:700!important;}
 @media(max-width:420px){.editorial-day{font-size:10px!important}.editorial-weekday{font-size:8px!important}}
+
+
+/* V12: compact calendar matching the reference; override generic .mini span script font. */
+.mini.mini-ceremony .editorial-main{padding:9% 5% 10%;gap:0;justify-content:flex-start;}
+.mini.mini-ceremony .editorial-names{font-family:'Great Vibes',cursive;font-size:clamp(21px,4.7vw,34px);line-height:1.25;margin:0 0 8%;font-weight:400;}
+.mini.mini-ceremony .editorial-month{font-family:'Playfair Display',Georgia,serif;font-size:clamp(10px,2vw,14px);line-height:1.25;margin:0 0 8%;letter-spacing:.04em;}
+.mini.mini-ceremony .editorial-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));grid-template-rows:repeat(7,minmax(0,1fr));width:100%;height:auto;flex:0 0 auto;aspect-ratio:7/7.6;min-height:0;align-items:stretch;justify-items:stretch;gap:0;}
+.mini.mini-ceremony .editorial-grid > span{min-width:0;min-height:0;}
+.mini.mini-ceremony .editorial-weekday{display:flex;align-items:center;justify-content:center;font-family:Arial,Helvetica,sans-serif!important;font-size:clamp(7px,1.3vw,10px)!important;font-style:normal!important;font-weight:600!important;line-height:1!important;letter-spacing:0!important;color:#9b5360;}
+.mini.mini-ceremony .editorial-day{display:flex;position:relative;align-items:center;justify-content:center;width:100%;height:100%;font-family:Georgia,'Times New Roman',serif!important;font-size:clamp(9px,1.6vw,12px)!important;font-style:normal!important;font-weight:400!important;line-height:1!important;color:#853847;}
+.mini.mini-ceremony .editorial-day > span:first-child{position:relative;z-index:2;font-family:Georgia,'Times New Roman',serif!important;font-size:inherit!important;font-style:normal!important;font-weight:inherit!important;line-height:1!important;letter-spacing:0!important;}
+.mini.mini-ceremony .editorial-mark > span:first-child{font-weight:700!important;color:#a00022;}
+.mini.mini-ceremony .editorial-heart{position:absolute;z-index:1;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-12deg);font-family:Georgia,serif!important;font-size:clamp(16px,3vw,22px)!important;line-height:1!important;color:#e7a1af;opacity:.8;}
+.mini.mini-ceremony .editorial-bottom{font-family:Georgia,serif;font-size:clamp(6px,1.2vw,9px);line-height:1.35;margin-top:7%;white-space:normal;}
+@media(max-width:420px){.mini.mini-ceremony .editorial-main{padding:9% 4% 8%}.mini.mini-ceremony .editorial-grid{aspect-ratio:7/8}.mini.mini-ceremony .editorial-day{font-size:10px!important}.mini.mini-ceremony .editorial-weekday{font-size:8px!important}}
