@@ -21,7 +21,7 @@ Ví dụ nếu URL website là `https://username.github.io/thiep-cuoi/`:
 
 Trang `index.html` là công cụ tạo link, không có đăng nhập. Nếu không muốn khách truy cập trang quản lý, hãy tách công cụ sang repository riêng hoặc thêm xác thực bằng dịch vụ phù hợp. Tên khách nằm trong URL và có thể nhìn thấy khi chia sẻ; không dùng cho dữ liệu nhạy cảm. GitHub Pages là hosting tĩnh, không tự gửi tin nhắn đến khách.
 
-Mã QR trong `assets` hiện là đường chỉ dẫn theo địa chỉ tìm kiếm; cần kiểm tra lại điểm đến chính xác trước khi phát thiệp.
+Mã QR trong `assets` là hai ảnh QR do gia đình cung cấp. Nút Mở Google Maps vẫn dùng tìm kiếm địa chỉ; hãy kiểm tra QR và nút dẫn đến đúng địa điểm trước khi gửi thiệp.
 
 
 ## V3
@@ -38,3 +38,9 @@ Mã QR trong `assets` hiện là đường chỉ dẫn theo địa chỉ tìm ki
 
 ## V6
 Tên khách mời ở trang phong bì và tờ tiệc được căn giữa, dùng font Great Vibes màu đen.
+
+## V7
+- Thay ảnh QR của nhà trai và nhà gái bằng ảnh gia đình gửi.
+- Sửa địa chỉ nhà gái thành **Số 30 Đường Đằng Tây**.
+- Sửa tên mẹ cô dâu thành **Vương Thị Diên**.
+- Tăng phiên bản tài nguyên lên v7.
